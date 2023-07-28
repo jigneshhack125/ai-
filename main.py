@@ -23,7 +23,6 @@ from twilio.rest import Client
 from clint.textui import progress
 from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
-import win32com.client as wincl
 from urllib.request import urlopen
 
 engine = pyttsx3.init('sapi5')
@@ -52,7 +51,7 @@ def wishMe():
 
 def username():
 	speak("What should i call you sir")
-	uname = input("username: ")
+	uname = command().lower()
 	speak("Welcome Mister")
 	sleep(0)
 	speak(uname)
