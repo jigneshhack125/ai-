@@ -1,7 +1,7 @@
 # ai
 # code_with_jignesh
 # to run this ai follow this command↓
-# Command's = git clone https://github.com/jigneshhack125/ai
+# Command's = git clone https://github.com/jigneshhack125/ai-code
 #             cd ai
 #             ls
 #             python main.py [if you don't have python installed so install it using this command "pkg install python"]
